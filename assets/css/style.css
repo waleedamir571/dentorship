@@ -24750,6 +24750,11 @@ li.has-dropdown:hover .submenu {
 
 @media  (min-width: 320px) and (max-width: 580px){
 
+  .rts-section-gap1 {
+    padding: 60px 0;
+    background: #052D4D;
+}
+
   .row {
     padding: 10px;
 }
@@ -24810,9 +24815,15 @@ li.has-dropdown:hover .submenu {
     left: 2rem;
 }
 
+.profile-card {
+  margin-top: 0px;
+  padding: 20px 0px;
+  /* border-top: 1px solid #ddd; */
+}
+
 .single-testimonials-style {
   padding: 20px;
-  margin-bottom: 35px;
+  margin-bottom: 0px;
 }
 
 
@@ -25144,7 +25155,7 @@ h2 {
   color: #111032;
   color: #FFF;
   /* font-family: "GT Walsheim Pro"; */
-  font-size: 21px;
+  font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.4;
