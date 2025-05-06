@@ -10546,7 +10546,7 @@ a {
 a:hover, a:focus, a:active {
   text-decoration: none;
   outline: none;
-  color: #052D4D !important;
+  color: #fff !important;
 }
 
 a:focus {
