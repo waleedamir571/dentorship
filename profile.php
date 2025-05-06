@@ -17,11 +17,11 @@
     padding: 5px !important;
 } */
 
-.nav-tabs .nav-link.active {
-    background-color: transparent !important;
-    border-color: transparent !important;
-    border-radius: 10px;
-}
+    .nav-tabs .nav-link.active {
+        background-color: transparent !important;
+        border-color: transparent !important;
+        border-radius: 10px;
+    }
 </style>
 
 
@@ -82,7 +82,7 @@
                     <div class="col-md-12">
 
                         <div class="head1">Dental care</div>
-                        <div class="head1">Implant  Dentistry</div>
+                        <div class="head1">Implant Dentistry</div>
                         <div class="head1">Oral Health</div>
 
                     </div>
@@ -262,7 +262,8 @@
                         <button type="submit" class="book-btn mt-2 w-100 mb-3">Sign up</button>
 
                         <div class="text-muted my-2 text-center"><img src="assets/images/home/imgline.png" alt=""> or
-                            <img src="assets/images/home/imgline.png" alt=""></div>
+                            <img src="assets/images/home/imgline.png" alt="">
+                        </div>
 
                         <button type="button" class="btn btn-google w-100">
                             Continue with Google
@@ -341,7 +342,7 @@
                             <div class="schedule-item implant"><span>William class / Oral health</span><span>30m</span>
 
                             </div>
-                            <button class="book-bton-13 w-100 mt-4">Book Now</button>
+                            <a href="course-details"> <button class="book-bton-13 w-100 mt-4">Book Now</button> </a>
                         </div>
 
                         <!-- Oral Tab -->
@@ -353,7 +354,7 @@
                             <div class="schedule-item implant"><span>William class / Oral health</span><span>30m</span>
 
                             </div>
-                            <button class="book-bton-13 w-100 mt-4"  id="book-now-btn">Book Now</button>
+                            <button class="book-bton-13 w-100 mt-4" id="book-now-btn">Book Now</button>
                         </div>
                     </div>
 
@@ -363,7 +364,7 @@
         <div class="row">
             <div class="col-md-8">
             </div>
-          
+
         </div>
     </div>
 </div>
@@ -430,20 +431,20 @@
 <!-- request appoinment area start -->
 
 <script>
-    document.getElementById('book-now-btn').addEventListener('click', function() {
-    var signupSection = document.getElementById('signup-section');
-    var specialitySection = document.getElementById('speciality-section');
+    document.getElementById('book-now-btn').addEventListener('click', function () {
+        var signupSection = document.getElementById('signup-section');
+        var specialitySection = document.getElementById('speciality-section');
 
-    // Fade out signup section
-    signupSection.classList.add('fade-out');
+        // Fade out signup section
+        signupSection.classList.add('fade-out');
 
-    // After fade out completes (500ms), hide and show the next
-    setTimeout(function() {
-        signupSection.style.display = 'none';
-        specialitySection.style.display = 'block';
-        specialitySection.classList.add('fade-in');
-    }, 500);
-});
+        // After fade out completes (500ms), hide and show the next
+        setTimeout(function () {
+            signupSection.style.display = 'none';
+            specialitySection.style.display = 'block';
+            specialitySection.classList.add('fade-in');
+        }, 500);
+    });
 
 </script>
 <!-- request appoinment area end -->
