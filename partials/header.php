@@ -79,7 +79,7 @@
                                     <li class="main-nav"><a href="#">Browse</a></li>
                                     <div class="header-right">
                                         <div class="input-area">
-                                            <input id="myInput" type="text" placeholder="Search...">
+                                            <input id="myInput" type="text" placeholder="Search for anything">
                                             <i class="fa-light fa-magnifying-glass"></i>
                                         </div>
                                         <li class="main-nav"><a href="#"><img src="assets/images/home/country.png"
@@ -98,7 +98,7 @@
                                                         stroke-linejoin="round" />
                                                 </svg></a></li>
                                         <li class="main-nav"><a href="#">Book</a></li>
-                                        <li class="main-nav"><a href="#">Log in</a></li>
+                                        <li class="main-nav"><a href="login">Log in</a></li>
                                         <!-- <div class="cart-button">
                                         <i class="fa-light fa-cart-shopping"></i>
                                     </div> -->
