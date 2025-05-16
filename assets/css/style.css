@@ -134,6 +134,35 @@
   background: var(--Gray-White, #FFF);
 }
 
+.rts-btn.btn-1 {
+  color: #fff;
+ animation: bgBlink 1s infinite;
+  /* display: flex
+; */
+  align-items: center;
+  gap: 5px;
+  border-radius: 40px;
+  background: #052D4D;
+  color: #D5EEF4;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 11px 26px;
+   
+}
+
+@keyframes bgBlink {
+  0%, 100% {
+    background-color: #052D4D;
+  }
+  50% {
+    background-color: black;
+  }
+}
+
+
 .coupon-input-wrapper .apply-btn {
   position: absolute;
   right: 6px;
@@ -685,8 +714,20 @@ line-height: 150%; /* 27px */
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
+  
   /* 150% */
 }
+
+/* @keyframes blink {
+    0% { color: #052D4D; }
+    50% { color: #F5EBDD; }
+    100% { color: #052D4D; }
+}
+
+.blinking-text {
+    animation: blink 1s infinite;
+} */
+
 
 .rts-btn.btn-2 {
   color: #fff;
@@ -16515,7 +16556,7 @@ header.header-one.style-two.header--sticky {
   color: #000;
   text-align: center;
   /* font-family: "GT Walsheim Pro"; */
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -17108,23 +17149,6 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 
 .social-area-tranaparent ul li a i {
   color: #fff;
-}
-
-.rts-btn.btn-1 {
-  color: #fff;
-  /* display: flex
-; */
-  align-items: center;
-  gap: 5px;
-  border-radius: 40px;
-  background: #052D4D;
-  color: #D5EEF4;
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px;
-  padding: 11px 26px;
 }
 
 .rts-btn {
@@ -23383,7 +23407,7 @@ li.has-dropdown:hover .submenu {
 .single-testimonials-style .quots {
   margin-bottom: 30px;
   position: relative;
-  left: 10rem;
+  left: 8rem;
   top: 1rem;
 }
 
